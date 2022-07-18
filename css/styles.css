@@ -158,6 +158,7 @@ h6 {
 .contact-list :hover,
 .contact-list :focus {
   color: var(--accent);
+  fill: var(--accent);
 }
 
 .contact-list:not(:last-child) {
@@ -165,11 +166,19 @@ h6 {
 }
 
 .contact-link {
+  display: inline-flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* main  */
