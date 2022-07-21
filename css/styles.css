@@ -206,6 +206,7 @@ h6 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -344,6 +345,7 @@ h6 {
 .taem-list {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  background: #ffffff;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -401,7 +403,7 @@ h6 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--primary-text-color);
+  color: #afb1b8;
 }
 
 .social-link:hover,
@@ -443,7 +445,7 @@ h6 {
   width: 170px;
   height: 92px;
   border-radius: 4px;
-  color: var(--primary-text-color);
+  color: #afb1b8;
   border: 1px solid var(--primary-text-color);
 }
 
@@ -601,6 +603,7 @@ h6 {
 }
 
 .portfolio-list {
+  display: block;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -616,9 +619,9 @@ h6 {
   margin-bottom: 0;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.portfolio-list:hover,
+.portfolio-list:focus {
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .portfolio-item {
